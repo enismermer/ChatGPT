@@ -1,0 +1,154 @@
+body {
+	background-color: #343541;
+}
+#exampleModalToggleLabel1,
+#exampleModalToggleLabel2,
+#exampleModalToggleLabel3{
+  margin-top: 50px !important;
+}
+.modal-content {
+	background-color: #202123 !important;
+}
+.modalBodyP {
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 3px;
+    margin-bottom:1rem;
+    display: flex;
+    align-items: center;
+    background-color: #2b2c2e;
+}
+
+.modalP {
+	background-color: #2b2c2e;
+    font-size: 0.8rem;
+}
+.btn {
+	color: #fff;
+}
+
+.btnNext,
+.btnBack {
+	background-color: #343541;
+	color: #fff !important;
+}
+.btnLast {
+	background-color: #10a67f;
+}
+.modal-footer {
+	border-top: 0px !important;
+}
+
+.navbarLg{
+    background-color: #202123;
+	 height: 100vh !important;
+
+}
+
+nav {
+	background-color: #343541;
+	 height: 5vh !important; 
+
+	
+}
+
+input[type="search"] {
+	background: transparent !important;
+	color:#fff !important;
+}
+
+
+input[type="text"] {
+	background-color: #40404f;
+	color:gray !important;
+	outline: none !important;
+	border: none !important;
+}
+
+h1 {
+	margin-top: 15vh;
+}
+
+.grid {
+	width: 80%;
+    
+    
+}
+
+.grid p {
+	background-color: #3e3f4b;
+	border-radius: 5px;
+	padding: 3px;
+	font-size: 0.8rem;
+}
+
+.textBottom {
+	font-size: 0.7rem !important;
+}
+
+.containerNav {
+	position: absolute;
+	background-color: #343541;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100vw;
+	border-bottom: 0.5px solid #fff;
+}
+
+.btn-toggler {
+	background-color: transparent;
+	color: #fff !important;
+	border: transparent !important;
+}
+/* .bi-list {
+	font-size: 20px;
+} */
+.btn-toggler:focus {
+	outline: none !important;
+	border: 0px solid transparent !important;
+}
+.test {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.button:focus {
+	outline: none !important;
+}
+.button:active {
+	outline: none !important;
+}
+
+.bi-plus-lg,
+.bi-list,
+.bi-x {
+	font-size: 1.5rem;
+    color:#fff !important;
+}
+
+
+.offcanvas {
+	background-color: #202123 !important;
+}
+
+.btn-close-offcanvas {
+	position: absolute !important;
+    right: -5vw;
+    top:1vh;
+    border : 1px solid #fff;
+    background-color: #343541 !important;
+	
+    
+}
+.navbarResponsive {
+    height :95vh !important;
+}
+img{
+    width : 30px;
+    height : 30px;
+    margin-right :1rem;
+}

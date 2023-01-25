@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<!-- CSS only -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav class=" d-block  d-lg-none bg-success fixed-top">
+				<div class="containerNav py-2">
+					<button
+						class="btn-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+					>
+						<i class="bi bi-list"></i>
+						
+					</button>
+					
+					<p class="text-white my-0">new chat</p>
+
+					<i class="bi bi-plus-lg text-white me-1"></i>
+				</div>
+				<div
+					class="offcanvas offcanvas-start "
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
+				>
+									
+                    <button
+							type="button"
+							class="btn-close-offcanvas"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						>
+                        <i class="bi bi-x"></i>
+
+                    </button>
+					<div class="offcanvas-body">
+                        <div class="w-100 h-100   ">
+                            
+                            <div 
+                                class="navabarResponsive h-100 w-100 d-flex flex-column justify-content-between"
+                            >
+                                <form class="d-flex w-100  " role="search">
+                                    <input
+                                        class="form-control w-100 me-2 btn-outline-light"
+                                        type="search"
+                                        placeholder="+ New chat"
+                                        aria-label="Search"
+                                    />
+                                </form>
+                                <hr>
+                                <div
+                                    class="container ps-3 d-flex flex-column justify-content-start align-content-start text-white"
+                                >
+                                    <div class="mode w-100 d-flex justify-content-start mt-3">
+                                        <i class="bi bi-moon"></i>
+                                        <p class="ps-2">Dark mode</p>
+                                    </div>
+                                    <div class="discord w-100 d-flex justify-content-start">
+                                        <i class="bi bi-discord"></i>
+                                        <p class="ps-2">OpenAI Discord</p>
+                                    </div>
+                                    <div class="faq w-100 d-flex justify-content-start">
+                                        <i class="bi bi-box-arrow-up-right"></i>
+                                        <p class="ps-2">Updates & FAQ</p>
+                                    </div>
+                                    <div class="logout w-100 d-flex justify-content-start">
+                                        <i class="bi bi-box-arrow-right"></i>
+                                        <p class="ps-2">Log out</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+				</div>
+		</nav>
+	</body>
+	<!-- JavaScript Bundle with Popper -->
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"
+	></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="app.js"></script>
+</html>
